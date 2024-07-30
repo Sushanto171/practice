@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        .container{
+            text-align: center;
+            color: wheat;
+            width: 100%;
+            min-height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(#0000004d, #0000004d), url("banner.png");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        h1{
+            font-size: 72px;
+            color: rgb(195, 226, 43);
+        }
+        .content{
+            width: 50%;
+        }
+        p{
+            line-height: 1.5;
+            padding: 15px;
+            font-size: 22px;
+        }
+        a{
+            display: inline-block;
+            padding: 1em 3.5em;
+            background-color: #050c9c;
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            border-radius: 5px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            font-size: 16px;
+        }
+        .blank{
+            width: 100%;
+            min-height: 60vh;
+            background-color: #333;
+        }
+        button{
+            margin: 20px auto;
+            padding: 10px 30px;
+            border: 1px solid #dbc30f;
+            border-radius: 5px;
+            background-color: transparent;
+            color: rgba(0,0,0,0.7);
+            background-image: linear-gradient( to right, #9ba423, #80191965);
+            transition: all 0.5s ease ;
+        }
+        button:hover {
+            background-size: 100%;
+            color: rgb(210, 6, 6);
+        }
+    </style>
+</head>
+<body>
+    <div class="blank"></div>
+
+    <div class="container">
+        <div class="content">
+            <h1>Explore The Parallax World</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima architecto voluptate exercitationem, fuga saepe doloremque voluptatibus neque earum? Doloribus tempora officia molestiae qui dignissimos quae ab necessitatibus blanditiis cupiditate quis dolore velit rerum aspernatur distinctio nobis minima quisquam repellendus, non possimus cumque quaerat odit facilis. Provident vero similique rem asperiores.</p>
+            <a href="">Learn more</a>
+            <button >Hover me</button>
+        </div>   
+     </div> 
+
+     <div class="blank"></div>
+</body>
+</html>
