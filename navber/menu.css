@@ -1,0 +1,122 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+div ul:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 174, 0);
+    height: 70px;
+    z-index:10;
+}
+ div ul:nth-child(1) li a{
+text-decoration: none;
+color: rgb(255, 255, 246);
+font-size: 2em;
+display: block;
+font-size: 30px;
+
+}
+
+    
+ul li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+}
+#position{
+    position:relative;
+}
+.child-2{
+    flex-direction: column;
+background-color: rgb(214, 29, 29);
+position: absolute;
+top:50px;
+left:0px;
+z-index: 99;
+width: 100px;
+padding: 0 10px;
+}
+div:nth-child(2){
+    margin: 0 auto;
+    margin-top: -3px;
+    margin-left: 10%;
+    height: 32px;
+    background-color: rgb(234, 153, 60);
+    display: inline-block;
+    border: 0;
+    z-index: 1;
+}
+div ul:nth-child(2) li a{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    display: block;
+    font-size: 25px;
+    height: 60px;
+    width: auto;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid ;
+    }
+.child-2 li{
+    display: block;
+    padding: 0;
+    margin:0;
+}
+.child-2 a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 196, 0);
+}
+h3 {
+    border-radius: 10px;
+    display: inline-block;
+    background-color: rgb(241, 167, 77);
+}
+h3 a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 40px;
+    border: 1px solid;
+    display: inline-block;
+    margin-top: 0px;
+    /* margin-left: 30px; */
+    background-image: linear-gradient(45deg, rgba(41, 129, 142, 0.975) , rgba(0, 0, 0, 0.856));
+    color: rgb(237, 184, 11);
+    border-radius: 10px;
+    
+}
+h3:hover{
+    border: 0;
+    border-radius: 0 0 10px 10px;
+    border-top: 30px solid rgb(248, 173, 61);
+    box-shadow: 0px 10px 30px rgb(119, 115, 115);
+    transition: 0.5s;
+    border-left: 30px solid red;
+}
+h3 a:hover{
+    color: aliceblue;
+    transition: 0.5s;
+    font-size: 32px;
+}
+#chandra a:hover{
+
+    font-size: 40px;
+}
+div #chandra:hover{
+    border: 0;
+    border-radius: 0 0 10px 10px;
+    border-top: 30px solid rgb(248, 173, 61);
+    box-shadow: 0px 10px 30px rgb(119, 115, 115);
+    transition: 0.5s;
+
+}
+div #sharkar:hover{
+    border: 0;
+    border-radius: 0 0 10px 10px;
+    border-top: 30px solid rgb(248, 173, 61);
+    box-shadow: 0px 10px 30px rgb(119, 115, 115);
+    transition: 0.5s;
+    border-right: 30px solid red;
+
+}
